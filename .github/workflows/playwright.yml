@@ -2,9 +2,7 @@ name: Smoke Tests
 
 on:
   push:
-    branches: [ main, talha ]
   pull_request:
-    branches: [ main, talha ]
 
 jobs:
   smoke:
