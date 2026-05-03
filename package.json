@@ -7,7 +7,8 @@
     "test": "tests"
   },
   "scripts": {
-    "test": "playwright test"
+    "test": "playwright test",
+    "postinstall": "if [ -f node_modules/.bin/playwright ]; then chmod +x node_modules/.bin/playwright node_modules/.bin/playwright-core; fi"
   },
   "keywords": [],
   "author": "",
